@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+main()
+{
+        int n;
+        printf("Entrer le nombre de lignes souhaiter : ");
+        scanf("%d",& n);
+    {
+        int i,j;
+        for (i=1;i<=n;i++)
+        {
+        for(j=1;j<=i;j++)
+        printf("%c",'*');
+        printf("\n");
+        }
+    }
+}
